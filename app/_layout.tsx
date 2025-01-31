@@ -20,5 +20,5 @@ export default function RootLayout() {
   if (!fontsLoaded) {
     return null;
   }
-  return <Stack screenOptions={{ headerTitle: "home" }} />;
+  return <Stack screenOptions={{ headerShown: false }} />;
 }
